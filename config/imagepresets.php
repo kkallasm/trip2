@@ -1,7 +1,7 @@
 <?php
 
-$images_path = storage_path() . '/app/images/';
-$images_alt_displaypath = '/images/';
+$images_path = storage_path() . '/app/public/images/';
+$images_alt_displaypath = '/storage/images/';
 $images_displaypath = env('IMAGE_PATH', $images_alt_displaypath);
 $svg_path = '/photos/';
 
