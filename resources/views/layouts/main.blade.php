@@ -6,9 +6,7 @@
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        @if (app()->environment() === 'staging')
-            <meta name="robots" content="noindex">
-        @endif
+        <meta name="robots" content="noindex">
         <meta name="google-site-verification" content="GJ69HgdyknrZZGmanskWCP9TqPNDJGR5OshtRDwZHJ0" />
         <meta name="csrf_token" content="{{csrf_token()}}" />
         <meta id="globalprops" name="globalprops" content="
